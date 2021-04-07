@@ -1,4 +1,4 @@
-import CartActionTypes from "./cart.types";
+// import CartActionTypes from "./cart.types";
 
 export const addItemToCart = (cartItems, cartItemToAdd) => {
     const existingCartItem = cartItems.find(
@@ -22,7 +22,7 @@ export const removeItemFromCart = (cartItems, cartItemToRemove) => {
     )
 
     if(existingCartItem.quantity === 1) {
-        return cartItems.filter(cartItem => cartItem.id != cartItemToRemove.id)
+        return cartItems.filter(cartItem => cartItem.id !== cartItemToRemove.id)
     }
 
     return cartItems.map(
