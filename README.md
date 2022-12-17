@@ -7,7 +7,7 @@ Crown-clothing is a one stop shop for all your clothing needs,fully responsive a
 
 
 ## **2. Live link**
-Link: https://crown-clothing-76fr.onrender.com/__
+Link: https://crown-clothing-76fr.onrender.com/ <br />
 Note: As this website uses a free tier subscription of Render, the website can take about 3-4 minutes to start for the first time.
 
 
